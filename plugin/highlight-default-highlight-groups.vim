@@ -1,14 +1,17 @@
 "  Script:  highlight-default-highlight-groups.vim
-" Version:  0.02
+" Version:  0.03
 "  Author:  Magnus Woldrich <m@japh.se>
-"  Update:  2011-11-10 06:29:09 
+"  Update:  2019-01-16 09:00:59
 "
 " This script highlights all the default highlighting groups in Vim by matching
 " the groups literal name and placing it in its group.
 
-if(exists("g:loaded_hdhg"))
-  finish
-endif
+" since this most probably will be used for debugging and creating
+" colorschemes, we don't want this here
+
+""if(exists("g:loaded_hdhg"))
+""  finish
+""endif
 
 let g:loaded_hdhg = 1
 
